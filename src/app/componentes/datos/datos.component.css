@@ -1,0 +1,85 @@
+.cabecera {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.buscador {
+    margin-top: 5px;
+}
+
+.buscador input[type="text"] {
+    padding: 5px 45px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+.buscador button {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    color: #4CAF50;
+    cursor: pointer;
+}
+
+.buscador button:hover {
+    background-color: #3e8e41;
+    color: white;
+}
+
+.grupo-formulario {
+    margin-bottom: 20px;
+}
+
+.control-formulario {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+small {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #3e8e41;
+}
+
+.btn-secundario {
+    background-color: #ccc;
+    color: #333;
+}
+
+.btn-secundario:hover {
+    background-color: #bbb;
+}
+
+.pie-pagina {
+    
+    color: white;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
