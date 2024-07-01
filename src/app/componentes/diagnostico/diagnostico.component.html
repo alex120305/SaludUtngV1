@@ -1,1 +1,73 @@
-<p>diagnostico works!</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informe Médico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="informe-medico">
+        <h1>Informe Médico</h1>
+        <form>
+            <div class="form-group">
+                <label for="responsable-diagnostico">Responsable del diagnostico</label>
+                <input type="text" id="nombre-diagnostico">
+                
+                <label for="nombre-institucion">Nombre de la institucion</label>
+                <input type="text" id="nombre-institucion">
+            </div>
+            <div class="form-group">
+                <label for="mañana crack">Falta de ideas mañana se resuelve</label>
+                <input type="text" id="mañana">
+                
+                <label for="fecha-diagnostico">Fecha del diagnostico</label>
+                <input type="date" id="fecha-diagnostico">
+            </div>
+            <h2>Datos del alumno</h2>
+            <div class="form-group">
+                <label for="nombre-paciente">Nombre del Paciente</label>
+                <input type="text" id="nombre-paciente">
+                
+                <label for="numero-control">Numero de control</label>
+                <input type="text" id="numero-control">
+            </div>
+            <h2>Cuestionario médico</h2>
+            <div class="form-group">
+                <label for="antecedentes-patologicos">Antecedentes patológicos del paciente (indicar fecha de inicio de la patología)</label>
+                <textarea id="antecedentes-patologicos"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="motivo-consulta">Motivo de la consulta y/o ingreso (indicar la fecha de inicio de la enfermedad de los síntomas y del diagnóstico)</label>
+                <textarea id="motivo-consulta"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="pruebas-diagnosticas">Pruebas diagnósticas (realizadas y resultados)</label>
+                <textarea id="pruebas-diagnosticas"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="diagnostico">Diagnóstico</label>
+                <textarea id="diagnostico"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="evolucion">Evolución</label>
+                <textarea id="evolucion"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="tratamiento">Tratamiento. Acto quirúrgico</label>
+                <textarea id="tratamiento"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="preciso-ingreso">Precisó ingreso (sí/no): Nº de días de ingreso:</label>
+                <textarea id="preciso-ingreso"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="pronostico">Pronóstico</label>
+                <textarea id="pronostico"></textarea>
+            </div>
+            <div class="form-group firma">
+                <label for="firma-facultativo">Firma del facultativo</label>
+                <input type="text" id="firma-facultativo">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
