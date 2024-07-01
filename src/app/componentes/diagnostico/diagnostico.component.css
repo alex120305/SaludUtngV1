@@ -1,8 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #ffffff;
+     display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      min-height: 100vh;
+      background: url(life-insurance-concept-with-paper-family.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
 }
 
 .informe-medico {
